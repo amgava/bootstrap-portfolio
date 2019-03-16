@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html lang = "en">
-
     <head>
         <meta charset="UTF-8">
-        <title>Bootstrap Portfolio - About Me</title>
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
+        <title>Bootstrap Portfolio - Main Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
     </head>
-
     <body>
-        
-    </body>
+        <!--Navbar-->
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-sm navbar-light bg-white">
+            <span class="navbar-brand ml-auto mb-0 h1 border border-0 bg-info text-white">Amanda Vaccianna</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <span class="nav-link">|</span>
+                <li class="nav-item">
+                  <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                </li>
+                <span class="nav-link">|</span>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+        <!--Main Content Box-->
+        <div class="container-fluid">
+          <!--Header Row-->
+          <div class="row">
+            <div class="col-md-12 justify-content-start">
+                <h1>About Me</h1>
+            </div>
+          </div>
+          <!--Separator-->
+          <hr />
+          <!--Placeholder & First Paragraph-->
+          <div class="row">
+                <div class="col-md-4 justify-content-left">
+                  <img src="assets/images/myface.jpg" alt="my-face" class="img-fluid">
+                </div>
+                <div class="col-md-8 justify-content-right">
+                  <p>My name is Amanda Vaccianna. I was born and raised on the island of Jamaica.
+                    I moved to Canada in 2007 to pursue a specialized high school certificate.
+                    I decided to stay in Canada after graduation and completed an undergraduate degree - Bachelor of Arts, University of Toronto.
+                    Years later, I'm still here!
+                  </p>
+                </div>
+          </div>
+          <!--Second Paragraph-->
+          <div class="row">
+                <div class="col-md-12 justify-content-start">
+                  <p>
+                      People are often surprised to learn I moved to Canada alone and the decision was as much mine as my parents' decision.
+                      I've long been used to independence due to being an only child.
+                  </p>
+                </div>
+          </div>
+          <!--Third Paragraph-->
+          <div class="row">
+                <div class="col-md-12 justify-content-start">
+                  <p>
+                    I enjoy both 'Arts' and 'Sciences'. I love drawing, painting, reading and enjoying music during my leisure time.
+                    However, I prefer data, equations and logic-based projects when I'm working.
+                    Working in full-stack development is the perfect place for me because front-end projects call on my creative side, while
+                    back-end projects keep me sharp.
+                    Language learning is another favourite field of mine for these reasons.
+                  </p>
+                </div>
+          </div>
+        </div>
 
+        <!-- Footer -->
+        <footer class="footer-bar">
+          <p class="footer-info justify-content-center">Copyright&copy; Amanda Vaccianna</p>
+        </footer>
+    </body>
 </html>
